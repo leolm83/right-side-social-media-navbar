@@ -1,0 +1,32 @@
+aside{   
+    position: fixed;
+    top:50vh;
+    right: 0px;
+    background-color:#D4F2D2;
+    min-height: 185px;
+    transform: translate(0px,-50%);
+    display: flex;
+    border-radius: 25px 0px 0px 25px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 3px;
+}
+#aside-social-media ul{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-self: stretch;
+   
+}
+#aside-social-media ul li a img{
+    min-height: 40px;
+    padding: 5px;
+}
+body{
+    height: 200vh;
+    margin: 0px;
+    background-color: #333;
+}
